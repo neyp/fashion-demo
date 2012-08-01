@@ -1,0 +1,156 @@
+html {
+	height: 100%;
+}
+
+body {	
+	font-family: 'Lato', sans-serif; font-weight:400;
+	position:relative;	
+	color: white;
+	background: #5b3c41; /* Old browsers */
+	background: -moz-linear-gradient(bottom, #5b3c41 0%, #4f576e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5b3c41), color-stop(100%,#4f576e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(bottom, #5b3c41 0%,#4f576e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #5b3c41 0%,#4f576e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #5b3c41 0%,#4f576e 100%); /* IE10+ */	
+	background: linear-gradient(to bottom, #5b3c41,#4f576e); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b3c41', endColorstr='#4f576e',GradientType=0 ); /* IE6-9 */	
+}
+
+/***** CLEARFIX ******/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+/***** CLEARFIX END **/
+
+.container  {	
+	width:960px;
+	height:700px;
+	
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin-top:-350px;
+	margin-left:-480px;		
+}
+
+.panel1, .panel2 { 
+  width: 960px; 
+  height: 700px; 
+}
+
+.panel1 {	
+	background:black url(../images/slide1.jpg) no-repeat center top;
+}
+
+.intro_container {
+	width:452px;	
+	float:right;
+	height: 100%;
+	margin-right:35px;
+}
+
+.intro_container .intro {	
+	margin-top:52px;
+}
+
+.intro p {		
+	display:inline;	
+	font-size: 1.2em;
+	background-color:black;
+	line-height:1.55em;
+	color: white;	
+	padding:2px 0 2px 8px;	
+}
+
+.intro_container .picks {	
+	margin-top: 12px;
+	font-size: 1em;
+	color:white;
+	width:267px;	
+}
+
+h1 span {		
+	padding-bottom: 3px;
+	padding-right:15px;
+	border-bottom:1px solid;
+	margin-right: 5px;	
+}
+
+h1 a, h1 a:link, h1 a:visited, .mapster_tooltip a, .mapster_tooltip a:link, .mapster_tooltip a:visited {
+	text-decoration: none;
+}
+
+h1 a, h1 a:link, h1 a:visited {	
+	color:white;
+}
+
+.share_bar {	
+	background-color: black;	
+	position:relative;	
+	margin-top:-53px;
+	height:25px;	
+}
+
+.share_bar  p{	
+	float:right;
+	font-size:0.8em;
+	margin-right:15px;	
+	margin-top:3px;
+}
+
+.share_bar  .plus{
+	font-size: 1.5em;	
+	vertical-align:middle;
+}
+
+.mapster_tooltip {
+	border:1px solid black;
+	background: white;
+	color: black;
+	width:110px;
+	height:90px;
+	border: 1px solid black!important;
+	padding-left: 7px!important;
+	border-top-left-radius: 0!important;
+	border-top-right-radius: 0!important;
+	border-bottom-left-radius: 0!important;
+	border-bottom-right-radius: 0!important;
+}
+
+.mapster_tooltip p {
+	margin-bottom:15px;
+	line-height:22px;
+}
+
+.mapster_tooltip a:hover {
+	text-decoration: underline;
+}
+
+.mapster_tooltip a {
+	color:black;
+}
+
+.mapster_tooltip img {
+	margin-left: 60px;
+}
+
+.teaser {	
+	color:black;
+	position:relative;	
+	margin-top:-53px;
+	height:25px;	
+}
